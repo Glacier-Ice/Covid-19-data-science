@@ -1,0 +1,217 @@
+[meta title:"Analysis" description:"Short description of your project" /]
+
+[Header
+  fullWidth:true
+  title:"疫情的初步数据分析"
+  subtitle:"意在证明web端JS实现的可行性"
+  author:"Jialin Lu"
+  authorLink:"https://luxxxlucy.github.io"
+  date:`(new Date()).toDateString() + " (最新更新)"`
+   /]
+
+[aside]
+有同学若用其他非web-based程序实现的数据分析，可咨询[Jialin Lu](https://luxxxlucy.github.io)。我来看看能不能转换为JS实现，并做一些好的可视化。
+[/aside]
+注：处于极初步开发中。在此仅做了几个简单的示范，意在说明数据分析可用JS来完成（proof of concept）。给出了
+
+* 预测（复现帝国理工模型）
+* 作图 用数据简答拟合
+* 作图，地图可视化
+
+这三个例子。按这个模版是可以做更多的东西的。
+
+
+[var name:"currentValueDisplay" value:"2" /]
+
+[Button onClick:`currentValueDisplay = "1"`]帝国理工的预测：基于海外传播的疫情估计
+[/Button]
+[Button onClick:`currentValueDisplay = "2"`]外省病例趋势（读本地数据）[/Button]
+
+
+[Conditional if:`currentValueDisplay == "1"`]
+  ## 帝国理工的预测：基于海外传播的疫情估计
+
+  [var name:"num_intl_case" value:7 format:"d"/]
+
+  [var name:"num_intl_passenger" value:3301 format:"d"/]
+  [var name:"catchment_in_million" value:19 format:"d"/]
+  [var name:"detection_window" value:10 format:"d"/]
+
+
+  [var name:"computation_function" value:`
+      function(argument_num_intl_case,argument_num_intl_passenger,argument_catchment_in_million,argument_detection_window)
+      {
+          var var_catchment = argument_catchment_in_million * 1000000;
+
+          var var_p = argument_num_intl_passenger / var_catchment * argument_detection_window;
+
+          var var_num_case = argument_num_intl_case / var_p;
+
+          return parseInt(var_num_case)
+      }
+  `/]
+
+  [derived name:"num_case" value: `computation_function(num_intl_case,num_intl_passenger,catchment_in_million,detection_window)` /]
+
+  [aside]
+  Imai, Natsuko, Ilaria Dorigatti, Anne Cori, Steven Riley, and Neil M. Ferguson. 2020. “Estimating the potential total number of novel Coronavirus cases in Wuhan City, China.” Imperial College London.
+  [/aside]
+
+  (凡带有下划点线的数字，可用鼠标拖拽改变数值)
+
+  __主要结论：__若海外已确认病例人数为[Dynamic value:num_intl_case format:"d"/]人，则预计的武汉市患病总数为 [Display value:num_case format:"d"/]人
+
+  该预测基于海外患病人数进行了简单的统计建模。由于海外患病人数较少，偶然性高，请辩证看待预测结果
+
+  __其他假设变量__
+
+1. 武汉机场出游外国人数量 [Dynamic value: num_intl_passenger format:"d"/]。
+2. 武汉机场周围人口 [Dynamic value:catchment_in_million format:"d"/] 百万。
+3. 病毒潜伏期 [Dynamic value:detection_window format:"d"/] 天
+
+  [Chart
+  equation:`(t) => computation_function(t,num_intl_passenger,catchment_in_million,detection_window)`
+  domain:`[1, 80]`
+  range: `[0,50000]`
+  samplePoints:100
+  /]
+  该图为随海外病例变化 武汉的病例估计。更改其他假设变量来查看趋势。
+
+[/Conditional]
+
+[Conditional if:`currentValueDisplay == "2"`]
+
+[data name:'province_Data' source:'prov_data_0130.csv' /]
+
+## 外省患病人数趋势
+
+使用本地数据。
+
+[aside]
+其实是可以直接使用网上的数据的（正如tab3）。但是现在就只用本地数据。
+[/aside]
+
+录入数据 数据大致（数据来源于"https://lab.isaaclin.cn/nCoV/api/area?latest=0"）。并见本地文件prov_data_0130.csv
+[Table data:province_Data /]
+
+简单作图
+
+
+
+[IdyllVegaLite data:province_Data spec:`{
+    mark: "line",
+    "transform": [
+    {"filter": " datum.province != \"湖北省\" "}
+    ],
+    "width":800,
+    "height":1000,
+    "encoding": {
+      "x": {
+        "field": "date",
+        "timeunit":"day",
+        "type": "temporal",
+        "axis": {"title": "date", "format": "%Y-%m-%d"},
+        "sort":"-y"
+      },
+      "y": {
+        "field": "confirm",
+        "type": "quantitative",
+        "axis": {"title": "感染人数"}
+      },
+      "color": {"field": "province", "type": "nominal"}
+    },
+  }
+` /]
+
+
+拟合省内数据，线性。
+
+[IdyllVegaLite data:province_Data spec:`{
+
+"transform":
+[
+{"filter": " datum.province != \"湖北省\" "},
+{
+  "aggregate":[{
+   "op": "sum",
+   "field": "confirm",
+   "as": "sum_per_day"
+  }],
+  "groupby": ["date"]
+}
+],
+"width":800,
+"height":800,
+"layer":
+[
+{
+"mark": {
+"type": "line",
+"point": true
+},
+"encoding": {
+"x": {
+  "field": "date",
+  "timeunit": "day",
+  "type": "temporal",
+  "axis": {"title": "date", "format": "%Y-%m-%d"}
+},
+"y": {
+  "field": "sum_per_day",
+  "type": "quantitative",
+  "axis": {"title": "湖北省外感染人数"}
+}}
+},
+{
+"mark": {
+    "type": "line",
+    "color": "firebrick"
+  },
+  "transform": [
+    {
+      "regression": "sum_per_day",
+      "on": "date",
+      "method":"quad"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "date",
+      "timeunit": "day",
+      "type": "temporal",
+      "axis": {"title": "date", "format": "%Y-%m-%d"}
+    },
+    "y": {
+      "field": "sum_per_day",
+      "type": "quantitative"
+    }
+  }
+},
+{
+  "transform": [
+    {
+      "regression": "sum_per_day",
+      "method":"quad",
+      "on": "date",
+      "params": true
+    },
+    {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+  ],
+  "mark": {
+    "type": "text",
+    "color": "firebrick",
+    "x": "width",
+    "align": "right",
+    "y": -5,
+    "size":40
+  },
+  "encoding": {
+    "text": {"type": "nominal", "field": "R2"}
+  }
+}
+]
+}
+` /]
+
+
+[/Conditional]

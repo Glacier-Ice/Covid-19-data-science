@@ -1,0 +1,25 @@
+{
+  "name": "estimation-imperial-college-london",
+  "version": "1.0.0",
+  "license": "MIT",
+  "idyll": {
+    "theme": "github",
+    "layout": "blog",
+    "css": "styles.css",
+    "authorView": false
+  },
+  "dependencies": {
+    "d3": "^5.15.0",
+    "idyll": "^4.10.0",
+    "idyll-d3-component": "^2.1.0",
+    "idyll-vega-lite": "^2.0.0",
+    "npm-check-updates": "^4.0.1",
+    "react": "^16.12.0",
+    "react-native-card-animated-modal": "^1.0.3",
+    "vega": "^5.9.1",
+    "vega-lite": "^4.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
