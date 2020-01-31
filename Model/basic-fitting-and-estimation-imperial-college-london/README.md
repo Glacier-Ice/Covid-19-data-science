@@ -1,6 +1,11 @@
 # idyll-post
 
-Template for a single Idyll post.
+尝试用做一个能够直接deploy成网页，不需要后端服务器的post。
+
+
+效果可先见 [here](https://luxxxlucy.github.io/projects/2020_wuhan/idyll_tryout/index.html)
+
+
 
 ## Installation
 

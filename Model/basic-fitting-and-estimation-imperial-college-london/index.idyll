@@ -16,12 +16,11 @@
 
 * 预测（复现帝国理工模型）
 * 作图 用数据简答拟合
-* 作图，地图可视化
 
-这三个例子。按这个模版是可以做更多的东西的。
+这两个例子。按这个模版是可以做更多的东西的。
 
 
-[var name:"currentValueDisplay" value:"2" /]
+[var name:"currentValueDisplay" value:"0" /]
 
 [Button onClick:`currentValueDisplay = "1"`]帝国理工的预测：基于海外传播的疫情估计
 [/Button]
