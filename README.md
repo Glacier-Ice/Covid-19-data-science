@@ -47,7 +47,7 @@ Fast & Easy Implementing
 - 参与数据相关开发工作，包括数据API整理，建模等，和主项目对接
 - 等等
 
-没用过Github，且不熟悉命令行的朋友请请前往下载[Github Desktop](https://desktop.github.com/)，走完教程学习如何提交改动。再点击本页面上绿色的Clone or download图标，点击的Open in Desktop，即可在Github Desktop里访问该资源。
+没用过Github，且不熟悉命令行的朋友请请前往下载[Github Desktop](https://desktop.github.com/)，走完教程学习如何提交改动。再点击本页面上绿色的Clone or download图标，点击Open in Desktop，即可在Github Desktop里访问该资源。
 
 欢迎加入[Trello](https://trello.com/invite/b/fwW7gZUY/87d9ee972226d4d13e59ed3058c69266/ncovdata-team)查看待领取项目
 
