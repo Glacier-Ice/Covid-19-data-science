@@ -6,6 +6,7 @@ Fast & Easy Implementing
 
 - 该项目是依托于Wuhan2020开源项目的，主要召集和数据科学有关的朋友。包括并不仅限于医学，流行病学，空间地理，经济学相关专业知识的朋友。
 我们的目标是致力于在疫情来临的关头，数据共享，开放讨论，共同研究。
+- 请加入[slack 讨论组](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc)参与更多讨论，我们在 channel #team-data
 
 ## **重要说明（必看)**
 
@@ -50,4 +51,3 @@ Fast & Easy Implementing
 
 欢迎加入[Trello](https://trello.com/invite/b/fwW7gZUY/87d9ee972226d4d13e59ed3058c69266/ncovdata-team)查看待领取项目
 
-参与更多讨论请加入[slack 讨论组](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTI2NTU1NzU3MTM2LWQ1YjIzMDllYjYzYTE1OTNhMWU4OTZkOGYzOGJhOWM2MzdlMjgwMmZiOWEzYTQwNmJkZDI4OWRmM2Q2ZDM1MTc)，我们在 channel #team-data
