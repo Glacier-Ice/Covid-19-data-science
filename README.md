@@ -26,7 +26,7 @@ Fast & Easy Implementing
 - [患者相同行程查询工具](患者相同行程查询工具)
 
 ## **个人资源**
-贡献者可以自行编辑这一部分
+任何贡献者都可以提交这一部分的编辑
 ### 数据方面：
 
 - Wangxin：[Collection](https://docs.google.com/spreadsheets/d/1M-iFpgweAAyRUriT_NsmPdkXCcDFReE3-8a0fYNQQc4/edit#gid=235095609)
