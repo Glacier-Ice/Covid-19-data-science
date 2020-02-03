@@ -51,3 +51,5 @@ Fast & Easy Implementing
 
 欢迎加入[Trello](https://trello.com/invite/b/fwW7gZUY/87d9ee972226d4d13e59ed3058c69266/ncovdata-team)查看待领取项目
 
+
+Author: @Stockard, co-edit @TensorFrozen
