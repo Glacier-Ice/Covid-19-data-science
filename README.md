@@ -38,6 +38,9 @@ Fast & Easy Implementing
 
 - Tongshuang Wu(Vegalite)：[在线数据调试工具](https://idyll-lang.org/)
 - Jialin Lu ：[帝国理工预测模型复现](https://luxxxlucy.github.io/projects/2020_wuhan/index.html)
+- Yiran Jing ：[估计和预测新型冠状病毒在武汉的爆发情况](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov)
+   - 阶段1: 估计武汉封城时的感染人数(借鉴帝国理工论文)
+   - 阶段2: 模拟预测武汉封城后肺炎感染人数以及峰值(借助SIER(susceptible-exposed-infectious- recovered)模型)
 
 ## **参与指南**
 
