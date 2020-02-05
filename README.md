@@ -33,6 +33,7 @@ Fast & Easy Implementing
 - Stockard：[基于官方文本疫情通报数据的汇总](https://docs.google.com/spreadsheets/d/1WnfMY1M3k8x9WHPGpx_jZc2EbSFQv7rEwHj5lJdBnVo/edit?usp=sharing)
 - Yilun Guan: 百度迁徙武汉迁出人口比例 1-26 日数据
 - Michael: [北美新冠肺炎报道汇总电报频道](https://t.me/ncov_2019_us)
+- Guangchuang Yu: [nCov2019: R包，可检索在线最近数据和历史数据](https://github.com/GuangchuangYu/nCov2019)
 
 ### 模型和调试：
 
