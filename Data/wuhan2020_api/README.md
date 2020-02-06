@@ -1,6 +1,6 @@
 # wuhan2020_data_science_api
 wuhan2020 data science 数据库 API接口
-# comment : to avoid potential confliction with the parent project //stockard
+comment : to avoid potential confliction with the parent project
 
 
 基于Flask
