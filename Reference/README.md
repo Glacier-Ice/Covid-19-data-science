@@ -1,6 +1,6 @@
 # 文献收集
 
-##**该文献收集主要服务目标**
+## **该文献收集主要服务目标**
 - 最新医学/流行病学/疫情相关文献，欢迎添加官方或自行翻译资源。
 - 可以用于组内建模的文献
 - 其他学科经典文献
@@ -14,6 +14,8 @@
 
 
 ### 最新论文
+
+- 爬虫地址：https://github.com/aboutmydreams/2019-nCoV-data
 
 * [美国2019年新型冠状病毒病例](https://www.nejm.org/doi/full/10.1056/NEJMoa2001191)(2020-01-31)
   * 报告描述了在美国确认的首例2019-nCoV感染的流行病学和临床特征。
@@ -42,8 +44,6 @@
 传播特征似乎与[严重的急性呼吸综合征相关冠状病毒（SARS-CoV）](https://en.wikipedia.org/wiki/Severe_acute_respiratory_syndrome)和[1918年大流行性流感相似](https://en.wikipedia.org/wiki/1918_flu_pandemic)。
 * [*Novel coronavirus 2019-nCoV: early estimation of epidemiological parameters and epidemic predictions*](https://www.medrxiv.org/content/10.1101/2020.01.23.20018549v1.full.pdf)(2020-01-23)
   * __Only 5% of cases are likely reported in official figures of confirmed cases.__
-
-
 
 
 ### 其他论文
