@@ -17,6 +17,16 @@
 
 - 爬虫地址：https://github.com/aboutmydreams/2019-nCoV-data
 
+* [Assessing spread risk of Wuhan novel coronavirus within and beyond China, January-April 2020: a travel network-based modelling study](https://www.medrxiv.org/content/10.1101/2020.02.04.20020479v1)(20200204)
+  * 我们估计，在武汉封锁之前的两周内，有59,912名航空旅客从武汉前往中国大陆以外的382个城市，其中834名（95％UI：478-1349）患有2019-nCoV感染。
+  * 2019-nCoV在中国和国际出口的进一步扩散可能会发生。所有国家，特别是脆弱地区，都应为遏制2019-nCoV感染做好准备。
+
+* [The incubation period of 2019-nCoV from publicly reported confirmed cases: estimation and application](https://www.medrxiv.org/content/10.1101/2020.02.02.20020016v1)(20200202)
+  * 我们使用来自武汉（中国湖北省）以外38个省，地区和国家的101例确诊病例的公开报告中的数据，这些数据具有可识别的暴露窗口和已知的症状发作日期，以估计2019-nCoV的潜伏期。我们估计2019-nCoV的中位潜伏期为5.2天（95％CI 4.4-6.0），有97.5％会在感染后的10.5天内（95％CI：7.3，15.3）会出现症状，这意味着主动监测或隔离14天后，每10,000例病例中有64例会出现症状，这种风险是否可以接受取决于潜在的感染风险和漏诊病例的后果。
+
+* [Effectiveness of airport screening at detecting travellers infected with 2019-nCoV](https://www.medrxiv.org/content/10.1101/2020.01.31.20019265v1)(20200131)
+  * 我们评估了2019-nCoV感染出入境筛查的有效性。在我们的基准情景中，根据潜伏期，出入境检查的敏感性以及无症状病例的比例，我们估计将不会检测到46.5％（95％CI：35.9至57.7）的受感染旅行者。
+
 * [美国2019年新型冠状病毒病例](https://www.nejm.org/doi/full/10.1056/NEJMoa2001191)(2020-01-31)
   * 报告描述了在美国确认的首例2019-nCoV感染的流行病学和临床特征。
 
