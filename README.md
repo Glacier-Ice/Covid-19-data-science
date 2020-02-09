@@ -1,5 +1,7 @@
 # 武汉新型冠状病毒防疫-数据科学项目 nCov Open Data
 
+简体中文 | [English](./README_EN.md)
+
 **项目目标:**
 - 让任何有数据分析能力的人迅速跟上最新情况。
 Fast & Easy Implementing
