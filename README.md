@@ -44,6 +44,7 @@ Fast & Easy Implementing
 - Yiran Jing ：[估计和预测新型冠状病毒在武汉的爆发情况](https://github.com/YiranJing/Coronavirus-Epidemic-2019-nCov)
    - 阶段1: 估计武汉封城时的感染人数(借鉴帝国理工论文)
    - 阶段2: 模拟预测武汉封城后肺炎感染人数以及峰值(借助SIER(susceptible-exposed-infectious- recovered)模型)
+- Yijun Wang: [基本在生数R0值的估算](https://github.com/yijunwang0805/YijunWang/tree/master/Estimation%20of%20R0_Yijun)
 
 ## **参与指南**
 
