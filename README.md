@@ -14,6 +14,7 @@ Fast & Easy Implementing
 
 - **技能共享**：进组请先填写[技能/时区小调查](https://forms.gle/Yyh1DY5EkzqCpA897)，方便组员互相组织，自由活动。[查看信息](https://docs.google.com/spreadsheets/d/16r_sJtGOVuU0pNulKmqXrvrm3N5mxLb_b4zgcdi_C1c/edit?usp=sharing)
 - **风险提示**：预测有风险，目前组里以建立专业模型知识库/基础数据库/数据可视化快速测试模型为主。其他预测请自行评估风险开展！
+- **使用数据**：如果你有意使用或者引用本项目的资源，请务必加上项目的引用链接。如果属于使用项目成员贡献的资源，请加上贡献者的Github ID/署名。
 
 ## **资源列表**
 
