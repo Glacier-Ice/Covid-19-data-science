@@ -1,5 +1,7 @@
 # Estimating Potential Outbreak Size in Wuhan before Shut Down (Jan 22)
 
+[简体中文](./README_CN)
+
 #### Author: Yiran Jing
 #### Date: Jan 26 - Jan 29 2020
 
