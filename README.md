@@ -1,4 +1,4 @@
-# 武汉新型冠状病毒防疫-数据科学项目 nCov Open Data
+# 武汉新型冠状病毒防疫-数据科学项目 COVID-19 Open Data
 
 简体中文 | [English](./README_EN.md)
 
