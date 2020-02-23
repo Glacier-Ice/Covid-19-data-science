@@ -18,7 +18,7 @@
 
 ### 提交结构
 
-> 接口POST http://wuhan2020.muxxs.com/api/add
+> 接口POST http://url/api/add
 
 文章
 
@@ -61,7 +61,7 @@ postdata = {
 }
 
 req = request.Request(
-    url="http://wuhan2020.muxxs.com/api/add", 
+    url="http://url/api/add", 
     headers=headers,
     data=json.dumps(data, ensure_ascii=False).encode("UTF-8")
 )
@@ -78,11 +78,11 @@ print(res.read().decode("utf-8"))
 
 #### 1、通过城市获取
 
->GET http://wuhan2020.muxxs.com/api/read?city=<城市名>
+>GET http://url/api/read?city=<城市名>
 
 例如
 
-GET http://wuhan2020.muxxs.com/api/read?city=test
+GET http://url/api/read?city=test
 
 ```json
 {
@@ -106,11 +106,11 @@ GET http://wuhan2020.muxxs.com/api/read?city=test
 
 #### 2、通过省级获取
 
-> GET http://wuhan2020.muxxs.com/api/read?province=<省级名>
+> GET http://url/api/read?province=<省级名>
 >
 > 例如
 >
-> GET http://wuhan2020.muxxs.com/api/read?province=test
+> GET http://url/api/read?province=test
 
 ```json
 {
@@ -136,7 +136,7 @@ GET http://wuhan2020.muxxs.com/api/read?city=test
 
 #### 3、获取提交日志
 
-> GET http://wuhan2020.muxxs.com/api/logs?limit=1
+> GET http://url/api/logs?limit=1
 
 ```json
 {
