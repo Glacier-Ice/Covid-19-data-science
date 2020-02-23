@@ -1,4 +1,4 @@
-# Wuhan 2019-nCoV Epidemic Prevention - Data Science (nCov Open Data)
+# Wuhan 2019-nCoV Epidemic Prevention - Data Science (COVID-19 Open Data)
 
 [简体中文](./README.md) | English
 
