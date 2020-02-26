@@ -5,7 +5,7 @@
 #### Last Update: 2020-02-16
 
 ### Usage
-- Download my Jupyter notebook file: [SEIR.ipynb](https://github.com/yijunwang0805/YijunWang/blob/master/SEIR%20Forecast_Yijun%20Wang%20%26%20Owen%20Xu/SEIR.ipynb).
+- Download my Jupyter notebook file: [SEIR_yijun.ipynb](https://github.com/yijunwang0805/YijunWang/blob/master/SEIR%20Forecast_Yijun%20Wang%20%26%20Owen%20Xu/SEIR.ipynb).
 - First part of the code will load data from an API connection, which is provided by [BlankerL](https://lab.isaaclin.cn/nCoV/). 
 - ```R0Func()``` is the function that calculates the newest basic reproduction number given up to date statistics. Its ```inputs``` are the number of ```confirm``` cases, the number of ```suspect``` cases, and days ```t``` since the start of the epidemic, December 1st, 2019.
 - ```SEIR()``` is the epidemic model that describes the system of differential equations.
