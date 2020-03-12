@@ -1,4 +1,4 @@
-# 武汉新型冠状病毒防疫-数据科学项目 COVID-19 Open Data
+# COVID-19 Glacier Open Data Project  武汉新型冠状病毒-数据科学项目 
 
 简体中文 | [English](./README_EN.md)
 
@@ -6,27 +6,13 @@
 - 让任何有数据分析能力的人迅速跟上最新情况。
 Fast & Easy Implementing
 
-- 该项目是依托于Wuhan2020开源项目的，主要召集和数据科学有关的朋友。包括并不仅限于医学，流行病学，空间地理，经济学相关专业知识的朋友。
+- 该项目主要召集和数据科学有关的朋友。包括并不仅限于医学，流行病学，空间地理，经济学相关专业知识的朋友。
 我们的目标是致力于在疫情来临的关头，数据共享，开放讨论，共同研究。
-- 请加入[slack 讨论组](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY)参与更多讨论，我们在 channel #team-data
 
-## **重要说明（必看)**
+欢迎加入[Trello](https://trello.com/invite/b/fwW7gZUY/87d9ee972226d4d13e59ed3058c69266/ncovdata-team)查看待领取项目
+也可以在[Gitter](https://gitter.im/Glacier-Data/community#) 上给我们留言.
 
-- **技能共享**：进组请先填写[技能/时区小调查](https://forms.gle/Yyh1DY5EkzqCpA897)，方便组员互相组织，自由活动。[查看信息](https://docs.google.com/spreadsheets/d/16r_sJtGOVuU0pNulKmqXrvrm3N5mxLb_b4zgcdi_C1c/edit?usp=sharing)
-- **风险提示**：预测有风险，目前组里以建立专业模型知识库/基础数据库/数据可视化快速测试模型为主。其他预测请自行评估风险开展！
 - **使用数据**：如果你有意使用或者引用本项目的资源，请务必加上项目的引用链接。如果属于使用项目成员贡献的资源，请加上贡献者的Github ID/署名。
-
-## **资源列表**
-
-- [John Hopkins Dashboard](http://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html) 空间地理疫情可视化，便于快速了解疫情。
-- [数据资源](https://docs.google.com/spreadsheets/d/1JNQnFYJpR7PxQo5K5lwXTuE0F6jprhMXuy7DPnV9H90/edit?usp=sharing) 包括官方性质的数据源和第三方数据源，*开放编辑*
-- [模型整理导航](https://docs.google.com/document/d/1Gm1xBevUXdTj5ZnMK82rKW7EblQoB8ML5OhIYMHmm1U/edit?usp=sharing) 共享模型及建模文献，*开放编辑*
-- [可视化和传染病文献资源](https://docs.google.com/document/d/17v0cAcyhm2Yd0FNqmgHxcVNR2nZdQ7LmSLfxt21wv5w) 包括 Elsevier, Wiley, Lancet 等最新免费文献资源链接，*开放编辑*
-
-### 其他第三方资源
-
-- [Outbreak analytics](https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2018.0276) 数据科学在传染爆发时期的运用 (provided by Eric Y.L.)
-- [患者相同行程查询工具](患者相同行程查询工具)
 
 ## **个人资源**
 任何贡献者都可以提交这一部分的编辑
@@ -47,6 +33,12 @@ Fast & Easy Implementing
    - 阶段2: 模拟预测武汉封城后肺炎感染人数以及峰值(借助SIER(susceptible-exposed-infectious- recovered)模型)
 - Yijun Wang: [基本在生数R0值的估算](https://github.com/yijunwang0805/YijunWang/tree/master/Estimation%20of%20R0_Yijun)
 
+## **其他资源列表**
+
+- [John Hopkins Dashboard](http://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html) 空间地理疫情可视化，便于快速了解疫情。
+- [Outbreak analytics](https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2018.0276) 数据科学在传染爆发时期的运用 (provided by Eric Y.L.)
+- [患者相同行程查询工具](患者相同行程查询工具)
+
 ## **参与指南**
 
 **项目贡献方式**
@@ -58,7 +50,6 @@ Fast & Easy Implementing
 
 没用过Github，且不熟悉命令行的朋友请请前往下载[Github Desktop](https://desktop.github.com/)，走完教程学习如何提交改动。再点击本页面上绿色的Clone or download图标，点击Open in Desktop，即可在Github Desktop里访问该资源。
 
-欢迎加入[Trello](https://trello.com/invite/b/fwW7gZUY/87d9ee972226d4d13e59ed3058c69266/ncovdata-team)查看待领取项目
-
+- 目前[slack 讨论组](https://join.slack.com/t/wuhan2020/shared_invite/enQtOTQxMTU4MzgyNTYwLWIxMTMyNWI4NWE2YTk3NGRjZGJhMjUzNmJhMjg1MDQ3OTEzNDE5NGY4MWFhMjRlYWU4MmE3ZGQyOGU4N2YwMzY) #team-data 已经不再维护, 可以在Gitter上留言联系.
 
 Author: @Stockard
