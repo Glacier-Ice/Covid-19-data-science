@@ -1,4 +1,4 @@
-# Wuhan COVID-19 Epidemic Prevention - Data Science (COVID-19 Open Data)
+# COVID-19 Epidemic Prevention - Data Science (COVID-19 Open Data)
 
 [简体中文](./README.md) | English
 
