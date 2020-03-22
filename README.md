@@ -11,9 +11,9 @@
 
 ## Important Notice (please read first)
 
-- Contribute by skill set: Please fill out the [SkillSet/TimeZone servey](https://forms.gle/Yyh1DY5EkzqCpA897) so people could coordinate online or offline more easily.
+- Contribute by skill set: Please fill out the [SkillSet/TimeZone servey](https://forms.gle/Yyh1DY5EkzqCpA897) so people could coordinate easily.
 
-- **Risk Disclosure**：Predictions are not always right and could cause serious problems, which is tricky and risky. Currently this project mainly focus on:
+- **Risk Disclosure** Currently this project mainly focus on:
    - Establishing professional knowledge base
    - Basic database/data repo
    - Data Visualization
@@ -42,7 +42,7 @@ Every contributor is welcome to edit this section by opening a PR.
 - Michael: [Summary of the news and repots about the novel-Coronavirus in North America, on Telegram](https://t.me/ncov_2019_us)
 - Guangchuang Yu: [nCov2019: R package to query for recent and historical data](https://github.com/GuangchuangYu/nCov2019)
 
-### 模型和调试：
+### Models and Verification：
 
 - Tongshuang Wu(Vegalite)：[Online tool for data wrangling](https://idyll-lang.org/)
 - Jialin Lu ：[Reproduced model of the estimation model from Imperial College London](https://luxxxlucy.github.io/projects/2020_wuhan/index.html)
