@@ -16,7 +16,7 @@
     "npm-check-updates": "^4.0.1",
     "react": "^16.12.0",
     "react-native-card-animated-modal": "^1.0.3",
-    "vega": "^5.9.1",
+    "vega": "^5.17.3",
     "vega-lite": "^4.1.0"
   },
   "devDependencies": {
